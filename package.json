@@ -1,0 +1,18 @@
+{
+  "name": "Social-Network-API",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "start": "node index"
+  }
+}
